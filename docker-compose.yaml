@@ -24,6 +24,8 @@ services:
       - "3000:3000"
     networks:
       - mogakoffee
+    command: ["bash", "-c", "npx prisma db push && yarn start:dev"]
+
 networks:
   mogakoffee:
       driver: bridge

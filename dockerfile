@@ -6,6 +6,6 @@ COPY . .
 
 RUN yarn install
 
-EXPOSE 4000
+EXPOSE 3000
 
-CMD [ "yarn", "start"]
+CMD bash -c "npx prisma db push && yarn start:dev"
