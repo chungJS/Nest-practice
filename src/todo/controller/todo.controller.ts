@@ -8,7 +8,6 @@ import {
   Put,
 } from '@nestjs/common';
 import { TodoService } from '../service/todo.service';
-import { Todo } from '@prisma/client';
 import { TodoDto } from '../dto';
 
 @Controller('api/v1/todos')
