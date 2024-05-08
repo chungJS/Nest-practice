@@ -1,4 +1,13 @@
 # Nest-practice
+### 실행방법
+
+Nest+Swagger+Prisma+Postgres → Docker compose
+
+```jsx
+yarn db:up
+```
+
+[localhost:3000/api에](http://localhost:3000/api에) 접속
 
 ### Nest 환경 구축
 
