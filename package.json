@@ -6,8 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "db:up": "docker-compose -f ./docker-compose.yaml up -d",
-    "db:down": "docker-compose -f ./docker-compose.yaml down",
+    "be:up": "docker compose -f ./docker-compose.yaml up -d",
+    "be:down": "docker compose -f ./docker-compose.yaml down",
+    
     "db:push": "npx prisma db push",
     "db:migrate": "npx prisma migrate --name $1",
     "db:generate": "npx prisma generate",
