@@ -1,4 +1,4 @@
-# Nest-practice
+# Nest TODO
 
 For my graduation project, I decided to build the backend using NestJS. To improve code efficiency and usability, I planned to incorporate Swagger, Prisma, and Docker. As preparation, I started this practice project to explore and apply these technologies by creating a simple TODO application.
 
